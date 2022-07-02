@@ -3,13 +3,15 @@ using PlayFab.ClientModels;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class PlayFabLogin : MonoBehaviour
 {
     [SerializeField] Button _connectButton;
     [SerializeField] TMP_Text _textResult;
 
-   
+    private const string AuthGuidKey = "authorization-guid";
+
     private void Start()
     {
         _connectButton.onClick.AddListener(Connect);
@@ -22,22 +24,29 @@ public class PlayFabLogin : MonoBehaviour
 
     private void Connect()
     {
-        // Here we need to check whether TitleId property is configured in settings or not
+        StartConnection();
 
         if (string.IsNullOrEmpty(PlayFabSettings.staticSettings.TitleId))
         {
-            /*
-            * If not we need to assign it to the appropriate variable manually
-            * Otherwise we can just remove this if statement at all
-            */
             PlayFabSettings.staticSettings.TitleId = " DFCB9";
         }
+
+        var needCreation = PlayerPrefs.HasKey(AuthGuidKey);
+        var id = PlayerPrefs.GetString(AuthGuidKey, Guid.NewGuid().ToString());
+
+
         var request = new LoginWithCustomIDRequest
         {
-            CustomId = "Player1",
-            CreateAccount = true
+            CustomId = id,
+            CreateAccount = !needCreation
         };
-        PlayFabClientAPI.LoginWithCustomID(request, OnLoginSuccess, OnLoginFailure);
+        PlayFabClientAPI.LoginWithCustomID(request, success => { PlayerPrefs.SetString(AuthGuidKey, id); OnLoginSuccess(success); }, OnLoginFailure);
+    }
+
+    private void StartConnection()
+    {
+        _textResult.text = "Connection";
+        _textResult.color = Color.yellow;
     }
 
     private void OnLoginSuccess(LoginResult result)
