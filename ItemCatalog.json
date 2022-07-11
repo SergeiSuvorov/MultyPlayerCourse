@@ -1,0 +1,569 @@
+{
+  "CatalogVersion": "ItemCatalog",
+  "Catalog": [
+    {
+      "ItemId": "short_sword_id",
+      "ItemClass": "melee weapon",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Short Sword",
+      "Description": "Short Sword - keep the enemy closer",
+      "VirtualCurrencyPrices": {
+        "RM": 10,
+        "SC": 100,
+        "HC": 20
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "melee weapon",
+        "one hand"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "long_sword_id",
+      "ItemClass": "melee weapon",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Long Sword",
+      "Description": "Long Sword - if you want to be a knight",
+      "VirtualCurrencyPrices": {
+        "RM": 15,
+        "HC": 30,
+        "SC": 150
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "melee weapon",
+        "one hand"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "two_hand_sword_id",
+      "ItemClass": "melee weapon",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Two Hand Sword",
+      "Description": "Two hand sword - in case of important negotiations",
+      "VirtualCurrencyPrices": {
+        "RM": 25,
+        "SC": 250,
+        "HC": 50
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "melee weapon",
+        "two hand"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "knife_id",
+      "ItemClass": "melee weapon",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Knife",
+      "Description": "Knife - better than nothing ",
+      "VirtualCurrencyPrices": {
+        "SC": 10
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "melee weapon",
+        "one hand"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": true,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "shield_id",
+      "ItemClass": "armor",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Shield",
+      "Description": "Shield - it will save you from an arrow",
+      "VirtualCurrencyPrices": {
+        "RM": 10,
+        "HC": 20,
+        "SC": 100
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "armor",
+        "one hand"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "leather_armor_id",
+      "ItemClass": "armor",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Leather Armor",
+      "Description": "Leather Armor - it's good for beginner",
+      "VirtualCurrencyPrices": {
+        "RM": 20,
+        "HC": 40,
+        "SC": 200
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "armor",
+        "body armor"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "chain_armor_id",
+      "ItemClass": "armor",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Chain Armor",
+      "Description": "Chain Armor - time-tested",
+      "VirtualCurrencyPrices": {
+        "RM": 30,
+        "SC": 300,
+        "HC": 60
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "armor",
+        "body armor"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "bow_id",
+      "ItemClass": "range weapon",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Bow",
+      "Description": "Bow - make a pillow for needles out of the enemy",
+      "VirtualCurrencyPrices": {
+        "RM": 20,
+        "SC": 200,
+        "HC": 40
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "range weapon",
+        "two hand"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": false,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "arrow_id",
+      "ItemClass": "range weapon",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Arrow",
+      "Description": "Arrow-for shooting from bow",
+      "VirtualCurrencyPrices": {
+        "RM": 1,
+        "SC": 10,
+        "HC": 2
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "weapon",
+        "range weapon",
+        "consumable items"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": null,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 20,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "health_potion_id",
+      "ItemClass": "potion",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Health Potion",
+      "Description": "Health Potion for second chance",
+      "VirtualCurrencyPrices": {
+        "RM": 2,
+        "HC": 4,
+        "SC": 20
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "potion",
+        "consumable items"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "warrior_bundle_id",
+      "ItemClass": "bundle",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Warrior Bundle",
+      "Description": "Warrior Bundle - for fast start",
+      "VirtualCurrencyPrices": {
+        "RM": 50
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "bundle"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": 86400,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [
+          "shield_id",
+          "long_sword_id",
+          "leather_armor_id",
+          "health_potion_id",
+          "health_potion_id",
+          "health_potion_id"
+        ],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 0,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "archer_bundle_id",
+      "ItemClass": "bundle",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Archer Bundle",
+      "Description": "Archer Bundle - for fast start",
+      "VirtualCurrencyPrices": {
+        "RM": 50
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "bundle"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": 86400,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": {
+        "BundledItems": [
+          "leather_armor_id",
+          "bow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "arrow_id",
+          "health_potion_id",
+          "health_potion_id",
+          "health_potion_id"
+        ],
+        "BundledResultTables": [],
+        "BundledVirtualCurrencies": null
+      },
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 1,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "key_id",
+      "ItemClass": "key",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": "Key",
+      "Description": "Key - open chest",
+      "VirtualCurrencyPrices": {
+        "RM": 5,
+        "HC": 10,
+        "SC": 50
+      },
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "consumable items"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": null,
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": true,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 5,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "weapon_chest_id",
+      "ItemClass": "chest",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": null,
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": null,
+      "Tags": [
+        "chest"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": "key_id",
+        "ItemContents": [],
+        "ResultTableContents": [
+          "weapon_bundle_box_id"
+        ],
+        "VirtualCurrencyContents": null
+      },
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 1,
+      "ActivatedMembership": null
+    },
+    {
+      "ItemId": "weapon_box_id ",
+      "ItemClass": "chest",
+      "CatalogVersion": "ItemCatalog",
+      "DisplayName": null,
+      "Description": null,
+      "VirtualCurrencyPrices": {},
+      "RealCurrencyPrices": {},
+      "Tags": [
+        "chest"
+      ],
+      "CustomData": null,
+      "Consumable": {
+        "UsageCount": 1,
+        "UsagePeriod": null,
+        "UsagePeriodGroup": null
+      },
+      "Container": {
+        "KeyItemId": "key_id",
+        "ItemContents": [],
+        "ResultTableContents": [
+          "weapon_box_id"
+        ],
+        "VirtualCurrencyContents": null
+      },
+      "Bundle": null,
+      "CanBecomeCharacter": false,
+      "IsStackable": false,
+      "IsTradable": false,
+      "ItemImageUrl": null,
+      "IsLimitedEdition": true,
+      "InitialLimitedEditionCount": 1,
+      "ActivatedMembership": null
+    }
+  ],
+  "DropTables": [
+    {
+      "TableId": "weapon_box_id",
+      "Nodes": [
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "short_sword_id",
+          "Weight": 4
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "long_sword_id",
+          "Weight": 2
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "two_hand_sword_id",
+          "Weight": 1
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "bow_id",
+          "Weight": 3
+        }
+      ]
+    },
+    {
+      "TableId": "weapon_bundle_box_id",
+      "Nodes": [
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "archer_bundle_id",
+          "Weight": 1
+        },
+        {
+          "ResultItemType": "ItemId",
+          "ResultItem": "warrior_bundle_id",
+          "Weight": 1
+        }
+      ]
+    }
+  ]
+}
